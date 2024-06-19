@@ -1,23 +1,26 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import "./App.css";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+      <header>
+        <h1>FindmyWeather</h1>
       </header>
+
+      <footer>
+        This website was built by{" "}
+        <a
+          href="https://www.linkedin.com/in/hikmah-adetunji-325011250"
+          target="_blank"
+        >
+          Hikmah Adetunji
+        </a>{" "}
+        and is open-sourced on{" "}
+        <a href="" target="_blank">
+          Github
+        </a>
+      </footer>
     </div>
   );
 }
