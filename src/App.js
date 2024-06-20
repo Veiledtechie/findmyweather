@@ -5,10 +5,9 @@ function App() {
   return (
     <div className="App">
       <div className="container">
-        <header>
-          <h1>FindmyWeather</h1>
-        </header>
+        <h1 className="findmyweather">FindmyWeather</h1>
         <Weather />
+
         <footer>
           This website was built by{" "}
           <a
