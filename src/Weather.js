@@ -17,7 +17,7 @@ export default function Weather(props) {
       city: response.data.city,
       country: response.data.country,
       icon: response.data.condition.icon,
-      date: "Friday 06:57",
+      date: new Date(response.data.time * 1000),
     });
   }
   function handleSubmit(event) {

@@ -1,6 +1,7 @@
 import React from "react";
 import WeatherIcon from "./WeatherIcon";
 import WeatherTemperature from "./WeatherTemperature";
+import Date from "./Date";
 export default function Weatherinfo(props) {
   return (
     <div>
@@ -8,7 +9,9 @@ export default function Weatherinfo(props) {
         <span>{props.data.city}</span>,<span>{props.data.country}</span>
       </h1>
       <ul>
-        <li>{props.data.date}</li>
+        <li>
+          <Date date={props.data.date} />
+        </li>
         <li className="text-capitalize">{props.data.description}</li>
       </ul>
       <div className="row mt-3">
