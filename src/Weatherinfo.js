@@ -18,7 +18,7 @@ export default function Weatherinfo(props) {
         <div className="col-6 ">
           <div className="flex">
             <div className="float-left">
-              <WeatherIcon code={props.data.icon} />
+              <WeatherIcon code={props.data.icon} size={52} />
             </div>
             <div className="float-left">
               <WeatherTemperature celcius={props.data.temperature} />
