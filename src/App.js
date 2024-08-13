@@ -12,6 +12,7 @@ function App() {
           <a
             href="https://www.linkedin.com/in/hikmah-adetunji-325011250"
             target="_blank"
+            rel="noopener noreferrer"
           >
             Hikmah Adetunji
           </a>{" "}
@@ -19,6 +20,7 @@ function App() {
           <a
             href="https://github.com/Veiledtechie/findmyweather"
             target="_blank"
+            rel="noopener noreferrer"
           >
             Github
           </a>
